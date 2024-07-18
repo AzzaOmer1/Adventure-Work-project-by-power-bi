@@ -1,0 +1,6 @@
+The company provided the two Excel files containing the Adventure Works sales data.AdventureWorksSales.xlsx and the new company’s data, OtherSales.xlsx. The datasets have somecommon data such as SalesOrderID, SalesOrderDetailID, UnitPrice, and SalesData, as well as columnswith different names.
+The procedures follow:
+When tables are combined, the column names that should stack vertically should be the same. For columns with matching names, their row values are stacked vertically to merge them.
+while for columns that exist separately in each set, they will be added horizontally, with null values for tables where those columns were not present before.
+To complete your task successfully, you have to rename the common columns and give them the samenames.
+You also have to remove any unnecessary columns.
