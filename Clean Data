@@ -1,16 +1,14 @@
-🏢The company provided the two Excel files📑 containing 1️⃣ the Adventure Works sales data,
-AdventureWorksSales.xlsx and 2️⃣ the new company’s data, OtherSales.xlsx. The datasets have some
-common data such as
-⚪ SalesOrderID, ⚪SalesOrderDetailID, ⚪UnitPrice and ⚪SalesDataas well as columns with different names.
-📍 In tables that combined, the column
-names that you want to stack vertically should be the same. For columns with matching names, their row
-values are stacked vertically to merge them. 
+Before the analysis can begin, the raw data must be cleaned and transformed to
+make sure it's accurate and consistent.
 
-📍while for columns that exist separately in each set, they will
-be added horizontally, with null values for tables where those columns were not present before. To complete your task successfully you have to rename the common columns and give them the same
-names.
+However, the data also contains errors like missing values, incorrect data types, and inconsistent
+formatting.
 
-📍 You also have to remove any unnecessary columns.
+the data can upload : SalesFiles.xlsx
+The dataset consists of important data related to recent sales, such as product categories, manufacturing prices, sales prices,
+units sold, and other similar details.
+
+i used Power Query editor
 
 
                                       The steps I followed :
