@@ -21,8 +21,33 @@ The ETL (Extract, Transform, Load), which is a crucial step in data analysis. He
 
 
 Common data errors that we encounter and need to address include:
+
 1/ Missing values.
+
 2/ Duplicate entries.
+
 3/ Inconsistent formatting.
+
 4/ Invalid data.
+
 5/ Outliers.
+
+6/ Data entry errors.
+
+
+
+During my work, I encountered three cases:
+
+         1️⃣ Cleaning Data:
+                        I ensured data accuracy and consistency by addressing issues like missing values, incorrect data types, duplicates, and inconsistent 
+                     formatting. This step is essential for producing accurate and reliable reports.
+
+         2️⃣ Appending Data:
+                        I combined data from another company to create insights for both companies in a single report.
+                     This is useful when working with columns.
+
+         3️⃣ Merging Data:
+                        I merged data based on specific columns or criteria.
+                        This is helpful when working with rows.
+
+⚫All of these processes are typically executed using the Power Query Editor, which provides tools for data transformation and preparation.
