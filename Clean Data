@@ -1,42 +1,34 @@
-The ETL (Extract, Transform, Load), which is a crucial step in data analysis. Here’s what each part of the ETL process means:
+🏢The company provided the two Excel files📑 containing 1️⃣ the Adventure Works sales data,
+AdventureWorksSales.xlsx and 2️⃣ the new company’s data, OtherSales.xlsx. The datasets have some
+common data such as
+⚪ SalesOrderID, ⚪SalesOrderDetailID, ⚪UnitPrice and ⚪SalesDataas well as columns with different names.
+📍 In tables that combined, the column
+names that you want to stack vertically should be the same. For columns with matching names, their row
+values are stacked vertically to merge them. 
 
-                           📍Extract Data:
-                                This step involves taking data from various sources such as Excel, the web, and other data repositories.
+📍while for columns that exist separately in each set, they will
+be added horizontally, with null values for tables where those columns were not present before. To complete your task successfully you have to rename the common columns and give them the same
+names.
 
-                           📍Transform Data:
-                                During this process, we standardize the data to make it more usable and consistent.
-
-                                 Key objectives include:
-                                          Making data analysis easier.
-                                          Improving data quality.
-                                          Preparing data for specific purposes.
-                                          Standardizing data (since it comes from different sources with varying formats and structures).
-
-                          📍Load Data:
-                              In this step, we load the transformed data into tools like Power Apps or Power BI.
+📍 You also have to remove any unnecessary columns.
 
 
-Common data errors that we encounter and need to address include:
-1/ Missing values.
-2/ Duplicate entries.
-3/ Inconsistent formatting.
-4/ Invalid data.
-5/ Outliers.
-6/ Data entry errors.
+                                 The steps I followed :
 
+                                        🛒I get data and transform it in the Power Query Editor. 
 
+                                        🔃Replaced null by 0 for the unit sold, sales price, sales, and profit columns. 
 
-During my work, I encountered three cases:
+                                        🚩Changed the type of manufacturing price column to a decimal. 
 
-1️⃣Cleaning Data:
-I ensured data accuracy and consistency by addressing issues like missing values, incorrect data types, duplicates, and inconsistent formatting. This step is essential for producing accurate and reliable reports.
+                                        🔃Replaced None value in Discount Band to 0. "0 represents no discount." 
 
-2️⃣Appending Data:
-I combined data from another company to create insights for both companies in a single report.
-This is useful when working with columns.
+                                        🔃Replaced text value in Unit Sold column to number (600) and change type of column to whole number 
 
-3️⃣Merging Data:
-I merged data based on specific columns or criteria.
-This is helpful when working with rows.
+                                        🚫I found null values in the date column, when returned to the data source responsible.
+                                        🪄They knew that a null value appeared because there was a problem on that day (3/3/2023), 🔃so replaced null values with 3/3/2023. 
 
-⚫All of these processes are typically executed using the Power Query Editor, which provides tools for data transformation and preparation.
+                                        🧹Remove Duplicate .
+ 
+        
+ 
