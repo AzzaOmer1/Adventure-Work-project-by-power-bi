@@ -1,0 +1,9 @@
+The tables of Sales Order ID, Order Date, Product Key, Quantity, Unit Price, Reseller Key, Product, Reseller and some other fields are stored in separate tables. These tables have a relationship with the Sales table because of the relational data architecture.
+
+A task: to list the Sales data with theSales Order ID, Order Date, Product Name, Quantity and Unit Pricecolumns. To do this, you must merge the Sales and Product tables by creating a Power BI query that merges the data.
+
+ There are two .xlsxfiles containing the Adventure Works company sales data named Sales.xlsx
+and product data named Product.xlsx. The data sets have a common column named ProductKey.
+
+I merged tables with joins.
+
